@@ -1,0 +1,19 @@
+body{
+  background-color: #212121;
+  color: #fafafa;
+}
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+   appearance: none;
+  width: 100%;
+  height: 1em;
+}
+
+@media screen and (min-width: 42em){
+  .one-fifth{
+    flex: 1 1 calc(100% / 5);
+    max-width: calc(100% / 5);
+  }
+}
